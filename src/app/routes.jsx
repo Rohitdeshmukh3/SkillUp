@@ -84,6 +84,7 @@ export const router = createBrowserRouter([
             <Settings />
           </ProtectedRoute>
         ),
+      },
     ],
   },
 ], {
