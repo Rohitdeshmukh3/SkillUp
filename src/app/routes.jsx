@@ -84,7 +84,8 @@ export const router = createBrowserRouter([
             <Settings />
           </ProtectedRoute>
         ),
-      },
     ],
   },
-]);
+], {
+  basename: import.meta.env.BASE_URL
+});
