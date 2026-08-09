@@ -4,45 +4,45 @@ SkillUp is a modern, comprehensive, role-based educational tracking platform. It
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 👤 Learner Features
+### Learner Features
 - **Personalized Learning Paths:** Enter your career goal, and the platform generates a structured path consisting of three stages: **Foundation**, **Core Skills**, and **Advanced Topics**.
 - **Course Enrollment & Progress Tracking:** Track your progress across enrolled courses, view upcoming milestones, and celebrate achievements with animated visual rewards.
 - **YouTube Resource Search:** Automatically fetch curated study videos matching the course modules using search tools directly integrated with the application.
 - **Activity Log & Alerts:** Keep track of recent dashboard actions and notifications sent by trainers and counselors.
 
-### 🏫 Trainer Features
+###  Trainer Features
 - **Engagement Analytics:** View overall stats, enrollment counts, average course scores, and course completion rates.
 - **Struggling Learners Identification:** Automatically flag students with low engagement (<40% progress) or overdue tasks, with quick tools to send reminders or encouragement.
 - **Trainer Allocation:** Easily allocate trainers or update course ownership.
 
-### 👔 Counselor Features
+###  Counselor Features
 - **Readiness & Risk Classification:** Monitor student readiness scores and track students flagged as **High Risk** (<40%), **Medium Risk** (40-70%), or **Low Risk** (>70%).
 - **Skill Gap Analysis:** Visualize students' acquired versus required skills with structured graphs. Detailed profiles allow counselors to inspect specific missing skills and assign custom learning tracks.
 
 ---
 
-## ✨ Visual Preview
+##  Visual Preview
 
-### 🏠 Landing Page
+###  Landing Page
 ![Landing Page](./screenshots/landing_page.png)
 
-### 👤 Learner Dashboard
+###  Learner Dashboard
 ![Learner Dashboard](./screenshots/learner_dashboard.png)
 
-### 🗺️ Learning Path Track
+### Learning Path Track
 ![Learning Path](./screenshots/learning_path.png)
 
-### 🏫 Trainer Dashboard
+###  Trainer Dashboard
 ![Trainer Dashboard](./screenshots/trainer_dashboard.png)
 
-### 👔 Counselor Dashboard
+###  Counselor Dashboard
 ![Counselor Dashboard](./screenshots/counselor_dashboard.png)
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **Framework:** Vite + React
@@ -59,7 +59,7 @@ SkillUp is a modern, comprehensive, role-based educational tracking platform. It
 
 ---
 
-## ⚙️ Project Setup & Installation
+##  Project Setup & Installation
 
 Follow these steps to set up the project locally:
 
@@ -82,18 +82,18 @@ MONGO_URI=mongodb://localhost:27017/skillup
 JWT_SECRET=super_secret_skillup_token_key_123_abc
 VITE_GOOGLE_CLIENT_ID=your_google_client_id_here
 ```
-> 💡 *Note: Adjust the `MONGO_URI` and `VITE_GOOGLE_CLIENT_ID` values according to your MongoDB database configuration and Google API credentials.*
+>  *Note: Adjust the `MONGO_URI` and `VITE_GOOGLE_CLIENT_ID` values according to your MongoDB database configuration and Google API credentials.*
 
 ### 4. Seed the Database
 To populate the database with default courses, default users, learning paths, and sample enrollments, execute the seeding script:
 ```bash
 node server/seed.js
 ```
-> ⚠️ *Important: Ensure your MongoDB server is running before running this command.*
+>  *Important: Ensure your MongoDB server is running before running this command.*
 
 ---
 
-## 🏃 Running the Application
+##  Running the Application
 
 You can run both the frontend development server and backend Express server concurrently with a single command:
 
@@ -122,7 +122,7 @@ If you wish to run the frontend or backend servers independently:
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 SkillUp/
@@ -146,7 +146,7 @@ SkillUp/
 
 ---
 
-## 🔌 API Endpoints Reference
+##  API Endpoints Reference
 
 | Route | Method | Description | Role Required |
 | :--- | :---: | :--- | :--- |
