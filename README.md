@@ -1,4 +1,4 @@
-# 🎯 SkillUp - AI-Powered Learning Path & Course Tracker
+# SkillUp - AI-Powered Learning Path & Course Tracker
 
 SkillUp is a modern, comprehensive, role-based educational tracking platform. It empowers **Learners** with personalized, AI-driven learning paths, helps **Trainers** monitor student engagement and identify struggling learners, and provides **Counselors** with a high-level analytics dashboard to track student readiness and close skill gaps.
 
